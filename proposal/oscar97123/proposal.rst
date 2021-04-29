@@ -99,7 +99,7 @@ both.
 Engineering infrastructure
 ==========================
 
-There will be 2 branches in the development. The first branch(master) holds the stable version of the software(with unit test assurance).
+There will be 2 branches in the development. The first branch(main) holds the stable version of the software(with unit test assurance).
 The second branch(development) will be a workstation for developing features, moreover, the unit test will perform in this branch either. 
 Only when the unit test passes and no crashes occurred, then the development branch merge into the master branch as a stable build. 
 
@@ -112,14 +112,21 @@ The project will split into functions for maintainability and the function name 
 Besides, there will be comments on complex code.
 
 Schedule
-========
+=========
 
-4/11 - 4/18(1 week)  - Research
-4/19 - 5/2 (2 weeks) - 1st prototype (Integrate Binance's RSET API for getting 
-real-time crypto price, simple transaction rule testing(eg. sell all bitcoin if the price raise 5%).
-5/3  - 5/23(3 weeks) - C++ computation development and optimization + testing
-5/24 - 5/31(1 week)  - High-level API development (Python + Telegram bot - if time is sufficient) + testing
-6/1  - 6/6(aprx. 1 week) - Overall test, minor changes, bugfixes
++-------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Duration    | (in weeks)     | Description                                                                                                                                                  |
++=============+================+==============================================================================================================================================================+
+| 4/11 - 4/18 | (1 week)       | Research                                                                                                                                                     |
++-------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4/19 - 5/2  | (2 weeks)      | 1st prototype (Integrate Binance's RSET API for getting real-time crypto price, simple transaction rule testing(eg. sell all bitcoin if the price raise 5%). |
++-------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5/3 - 5/23  | (3 weeks)      | C++ computation development and optimization + testing                                                                                                       |
++-------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5/24 - 5/31 | (1 week)       | High-level API development (Python + Telegram bot - if time is sufficient) + testing                                                                         |
++-------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6/1 - 6/6   | (aprx. 1 week) | Overall test, minor changes, bugfixes                                                                                                                        |
++-------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 References
 ==========
